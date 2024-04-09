@@ -11148,6 +11148,11 @@ h4,
   overflow: hidden;
 }
 
+body.push-body #main-header {
+  transition: max-height 0.5s ease-in-out;
+  overflow: hidden;
+}
+
 body.push-body #main-header:after {
   -webkit-transition: all 0.20s ease-out;
   -moz-transition: all 0.20s ease-out;
@@ -14165,7 +14170,7 @@ svg.leaflet-image-layer.leaflet-interactive path {
 }
 
 #main-wrapper.sticked-menu {
-  padding-top: 95px;
+  transition: padding-top 0.5s ease-in-out;
 }
 
 .container {
